@@ -4,20 +4,46 @@ Hello everyone. Thanks to the course I took on Udemig, I added a new one to my p
 
 ---
 
-Game Info
+ <h3>Game Info</h3>
+          <ul class="game-info-content">
+            <li>This game is a game of the <strong> guess number</strong>.</li>
+            <li>
+              You have <strong>3 lives</strong> and <strong>1 minute </strong>of
+              time.
+            </li>
+            <li>
+              Try to guess the number without guessing wrong and taking into
+              account the time, <strong> collect the scores!</strong>
+            </li>
+            <li>
+              The number to be guessed is <strong>between 1 and 10. </strong>
+            </li>
+            <li>
+              The game ends when you run out of lives or when time runs out.
+            </li>
+            <li>
+              <strong> Click </strong> the
+              <button>Run</button>
+              on the top left to start the game.
+            </li>
+          </ul>
+           <h3>Bonus Info</h3>
+          <ul class="game-bonus-content">
+            <li>
+              You are entitled to <strong>2 bonuses </strong> in the game. You
+              can choose bonuses <strong> only 1 time</strong>.
+            </li>
 
-This game is a game of the guess number.
-You have 3 lives and 1 minute of time.
-Try to guess the number without guessing wrong and taking into account the time, collect the scores!
-The number to be guessed is between 1 and 10.
-The game ends when you run out of lives or when time runs out.
-Click the Run on the top left to start the game.
-
-Bonus Info
-
-You are entitled to 2 bonuses in the game. You can choose bonuses only 1 time.
-Time Bonus : Stops time in the game for 10 seconds.
-Game Info : Gives you hints about the number , so you can make more accurate predictions.
+            <li>
+              <strong>Time Bonus </strong>: Stops time in the game for
+              <strong>10 seconds</strong>.
+            </li>
+            <li>
+              <strong>Game Info </strong>: Gives you
+              <strong>hints about the number </strong>, so you can make more
+              accurate predictions.
+            </li>
+          </ul>
 
 # Short Gif
 
