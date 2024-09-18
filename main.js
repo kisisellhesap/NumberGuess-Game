@@ -266,3 +266,37 @@ infoBtn.addEventListener("click", function () {
   infoBtn.classList.remove("infoBtn-Effect");
   gameInfoContainer.classList.toggle("display");
 });
+
+// About Console
+
+document.addEventListener(
+  "contextmenu",
+  function (e) {
+    e.preventDefault();
+  },
+  false
+);
+
+document.addEventListener(
+  "keydown",
+  function (e) {
+    if (e.key === "F12") {
+      e.preventDefault();
+    }
+
+    if (
+      (e.ctrlKey && e.shiftKey && e.key === "I") ||
+      (e.ctrlKey && e.shiftKey && e.key === "J")
+    ) {
+      e.preventDefault();
+    }
+
+    if (
+      (e.ctrlKey && e.shiftKey && e.key === "C") ||
+      (e.ctrlKey && e.key === "u")
+    ) {
+      e.preventDefault();
+    }
+  },
+  false
+);
