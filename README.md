@@ -33,7 +33,6 @@ Hello everyone. Thanks to the course I took on Udemig, I added a new one to my p
               You are entitled to <strong>2 bonuses </strong> in the game. You
               can choose bonuses <strong> only 1 time</strong>.
             </li>
-
             <li>
               <strong>Time Bonus </strong>: Stops time in the game for
               <strong>10 seconds</strong>.
