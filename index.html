@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guess Game</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="./logo.jpg" />
+    <script
+      src="https://kit.fontawesome.com/3618d78403.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <button class="run-btn">Run</button>
+        <div class="remained-container">
+          <span>Remained :</span>
+          <div class="remained-content">
+            <i class="fa-solid fa-heart" data-id="0"></i>
+            <i class="fa-solid fa-heart" data-id="1"></i>
+            <i class="fa-solid fa-heart" data-id="2"></i>
+          </div>
+        </div>
+
+        <div class="high-score-container">
+          <span>High Score : </span>
+          <p class="high-score">0</p>
+        </div>
+        <div class="score-container">
+          <span>Score : </span>
+          <p class="score">0</p>
+        </div>
+        <div class="timer-container">
+          <span>Timer : </span>
+          <p class="timer">1:00</p>
+        </div>
+      </header>
+
+      <div class="randomNumber-wrapper">
+        <h1 class="random-header">Guess The Number !</h1>
+        <div class="randomNumber-container">?</div>
+        <hr />
+      </div>
+
+      <div class="guessNumber-wrapper">
+        <div class="guessNumber-container">
+          <input type="text" class="guess-input" maxlength="2" />
+          <button class="check-btn">Check</button>
+        </div>
+      </div>
+
+      <div class="hack-div">
+        <span class="random-hack"></span>
+      </div>
+
+      <div class="bonus-container">
+        <div class="bonus-content">
+          <span>Stop Timer</span>
+          <i class="fa-regular fa-hourglass-half" data-value="time-bonus"></i>
+        </div>
+        <div class="bonus-content">
+          <span>Give Me Info</span>
+          <i class="fa-solid fa-lightbulb" data-value="info-bonus"></i>
+        </div>
+      </div>
+
+      <div class="game-info-container">
+        <div class="game-info-wrapper">
+          <h3>Game Info</h3>
+          <ul class="game-info-content">
+            <li>This game is a game of the <strong> guess number</strong>.</li>
+            <li>
+              You have <strong>3 lives</strong> and <strong>1 minute </strong>of
+              time.
+            </li>
+            <li>
+              Try to guess the number without guessing wrong and taking into
+              account the time, <strong> collect the scores!</strong>
+            </li>
+            <li>
+              The number to be guessed is <strong>between 1 and 10. </strong>
+            </li>
+            <li>
+              The game ends when you run out of lives or when time runs out.
+            </li>
+
+            <li>
+              <strong> Click </strong> the
+              <button>Run</button>
+              on the top left to start the game.
+            </li>
+          </ul>
+        </div>
+        <div class="game-bonus-wrapper">
+          <h3>Bonus Info</h3>
+          <ul class="game-bonus-content">
+            <li>
+              You are entitled to <strong>2 bonuses </strong> in the game. You
+              can choose bonuses <strong> only 1 time</strong>.
+            </li>
+
+            <li>
+              <strong>Time Bonus </strong>: Stops time in the game for
+              <strong>10 seconds</strong>.
+            </li>
+            <li>
+              <strong>Game Info </strong>: Gives you
+              <strong>hints about the number </strong>, so you can make more
+              accurate predictions.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="info-btn-content">
+        <span>Info About Game</span>
+        <i class="fa-solid fa-circle-question infoBtn-Effect" id="info-btn"></i>
+      </div>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
