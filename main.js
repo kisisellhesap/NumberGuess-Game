@@ -219,6 +219,11 @@ function hightScoreFunction() {
 }
 
 guessInput.addEventListener("input", function () {
+  if (guessInput.value > 10) {
+    let newValue = guessInput.value.slice(0, 1);
+    guessInput.value = newValue;
+  }
+
   guessInput.value = guessInput.value.replace(/[^0-9.-]/g, "");
 });
 
